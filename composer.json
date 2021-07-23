@@ -1,0 +1,25 @@
+{
+    "name": "mahout-erp/erp",
+    "description": "Module for integration with Mahout ERP via API",
+    "type": "library",
+    "keywords": ["Mahout-ERP"],
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "email": "ti@mahout.com.br",
+            "name": "IT SUPPORT"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "php-curl-class/php-curl-class": "^8",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mahout\\ERP\\": "src/"
+        }
+    }
+}
